@@ -22,7 +22,7 @@ Alternatively, user can run scenarios via the feature files located in:
 <pre>src/test/resources/features</pre>
 
 <i><u>NOTE:</i></u> There is a config file that allows the user to switch between using the Chrome/Firefox drivers locally, or using 'RemoteWebDriver' from Selenium Stand-alone Grid drivers.
-This config was initially setup to test/debug some Docker issues.</br></br>
+This config was initially setup to test/debug some Docker issues (further documented in Docker repo link).</br></br>
 The config file is located in the path (below).  User can change the 'locale' key/value to <b><i>local</b></i> or <b><i>remote</b></i>
 
 <pre>src/test/resources/reference.conf</pre>
