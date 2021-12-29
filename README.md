@@ -16,7 +16,7 @@ The following validations for each page are performed via automation for both Ch
 After running the test suite, there will be an HTML test report generated in following Maven project path:
 <pre>/target/cucumber-reports/test-report.html</pre>
 
-![](../../Desktop/Screen Shot 2021-12-29 at 11.34.10 AM.png)
+![Screen Shot 2021-12-29 at 11 34 10 AM](https://user-images.githubusercontent.com/42190310/147699327-fef93393-b253-4165-8378-71c58873900e.png)
 
 Alternatively, user can run scenarios via the feature files located in:
 <pre>src/test/resources/features</pre>
