@@ -1,5 +1,5 @@
 #@smoke
-#Feature: Chrome + Firefox - Automation Tests
+#Feature: Chrome + Firefox - Automation Tests - Consolidated validation tests for each page
 #
 #  @badpage
 #  Scenario: Chrome - W3 Bad Page Test
