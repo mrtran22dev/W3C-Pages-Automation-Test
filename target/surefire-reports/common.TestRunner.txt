@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: common.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 185.169 s <<< FAILURE! - in common.TestRunner
+Chrome - W3 Bad Page - Links Test(Chrome Automation Tests)  Time elapsed: 18.645 s  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) Redirected link returns status code: 404 > https://www.w3.org/standards/badpage#w3c_content_body expected:<[fals]e> but was:<[tru]e>
+
+
+Chrome - W3 Bad Page - Console Logs Test(Chrome Automation Tests)  Time elapsed: 5.708 s  <<< FAILURE!
+java.lang.AssertionError: Console log Level.SEVERE detected: [2021-12-29T00:13:08-0800] [SEVERE] https://www.w3.org/standards/badpage - Failed to load resource: the server responded with a status of 404 (). Actual: SEVERE
+
+Firefox - W3 Bad Page - Links Test(Firefox Automation Tests)  Time elapsed: 16.175 s  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) Redirected link returns status code: 404 > https://www.w3.org/standards/badpage#w3c_content_body expected:<[fals]e> but was:<[tru]e>
+
+
+Firefox - W3 Bad Page - Console Logs Test(Firefox Automation Tests)  Time elapsed: 8.24 s  <<< FAILURE!
+java.lang.AssertionError: 
+Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+
+Firefox - W3 Multi-Modal Page - Console Logs Test(Firefox Automation Tests)  Time elapsed: 8.094 s  <<< FAILURE!
+java.lang.AssertionError: 
+Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+
+Firefox - W3 HTML/CSS Page - Console Logs Test(Firefox Automation Tests)  Time elapsed: 7.983 s  <<< FAILURE!
+java.lang.AssertionError: 
+Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+

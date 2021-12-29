@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="common.TestRunner" time="185.169" tests="12" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mike/IdeaProjects/automation-test/target/test-classes:/Users/mike/IdeaProjects/automation-test/target/classes:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/mike/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mike/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mike/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mike/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mike/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mike/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mike/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mike/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mike/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/mike/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-core/7.0.0/cucumber-core-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-gherkin/7.0.0/cucumber-gherkin-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.0.0/cucumber-gherkin-messages-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/mike/.m2/repository/io/cucumber/tag-expressions/4.0.2/tag-expressions-4.0.2.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/mike/.m2/repository/io/cucumber/datatable/7.0.0/datatable-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-plugin/7.0.0/cucumber-plugin-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/docstring/7.0.0/docstring-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/mike/.m2/repository/io/cucumber/create-meta/6.0.1/create-meta-6.0.1.jar:/Users/mike/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-junit/7.0.0/cucumber-junit-7.0.0.jar:/Users/mike/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mike/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-java/7.0.0/cucumber-java-7.0.0.jar:/Users/mike/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mike/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/Users/mike/.m2/repository/org/assertj/assertj-core/3.20.2/assertj-core-3.20.2.jar:/Users/mike/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:/Users/mike/.m2/repository/com/typesafe/config/1.4.1/config-1.4.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mike/IdeaProjects/automation-test/target/surefire/surefirebooter5963407907148910673.jar /Users/mike/IdeaProjects/automation-test/target/surefire 2021-12-29T00-11-59_370-jvmRun1 surefire5639976033875535260tmp surefire_017071705239036024263tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mike/IdeaProjects/automation-test/target/test-classes:/Users/mike/IdeaProjects/automation-test/target/classes:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/mike/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/mike/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mike/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mike/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mike/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mike/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mike/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mike/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mike/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mike/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/mike/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-core/7.0.0/cucumber-core-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-gherkin/7.0.0/cucumber-gherkin-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.0.0/cucumber-gherkin-messages-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/mike/.m2/repository/io/cucumber/tag-expressions/4.0.2/tag-expressions-4.0.2.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/mike/.m2/repository/io/cucumber/datatable/7.0.0/datatable-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-plugin/7.0.0/cucumber-plugin-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/docstring/7.0.0/docstring-7.0.0.jar:/Users/mike/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/mike/.m2/repository/io/cucumber/create-meta/6.0.1/create-meta-6.0.1.jar:/Users/mike/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-junit/7.0.0/cucumber-junit-7.0.0.jar:/Users/mike/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mike/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mike/.m2/repository/io/cucumber/cucumber-java/7.0.0/cucumber-java-7.0.0.jar:/Users/mike/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mike/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/Users/mike/.m2/repository/org/assertj/assertj-core/3.20.2/assertj-core-3.20.2.jar:/Users/mike/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:/Users/mike/.m2/repository/com/typesafe/config/1.4.1/config-1.4.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mike"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mike/IdeaProjects/automation-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/mike/IdeaProjects/automation-test/target/surefire/surefirebooter5963407907148910673.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.1+1"/>
+    <property name="user.name" value="mike"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/mike/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/wg/66zhpk6x399f4pzpl64t7g6c0000gn/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/mike/IdeaProjects/automation-test"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mike/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Chrome - W3 Bad Page - Links Test" classname="Chrome Automation Tests" time="18.645">
+    <failure message="&#10;The following assertion failed:&#10;1) Redirected link returns status code: 404 &gt; https://www.w3.org/standards/badpage#w3c_content_body expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) Redirected link returns status code: 404 > https://www.w3.org/standards/badpage#w3c_content_body expected:<[fals]e> but was:<[tru]e>
+
+]]></failure>
+    <system-out><![CDATA[
+@smoke @chrome @links
+Scenario: Chrome - W3 Bad Page - Links Test                             # src/test/resources/features/chrome.feature:5
+  Given the user opens "chrome" browser and navigates to the "bad" page # steps.CommonStepDefs.theUserOpensBrowserAndNavigatesToThePage(java.lang.String,java.lang.String)
+  Then the page response code should be 404                             # steps.CommonStepDefs.thePageResponseCodeShouldBe(int)
+  And all links on the page should redirect to a valid page             # steps.CommonStepDefs.allLinksOnThePageShouldRedirectToAValidPage()
+      org.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) Redirected link returns status code: 404 > https://www.w3.org/standards/badpage#w3c_content_body expected:<[fals]e> but was:<[tru]e>
+
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:100)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:37)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:42)
+	at steps.CommonStepDefs.allLinksOnThePageShouldRedirectToAValidPage(CommonStepDefs.java:107)
+	at ✽.all links on the page should redirect to a valid page(file:///Users/mike/IdeaProjects/automation-test/src/test/resources/features/chrome.feature:8)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 41794
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 29, 2021 12:12:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] INFO pages.Page - sanitized page name > bad
+[main] INFO pages.Page - https://www.w3.org/standards/badpage
+[main] INFO steps.CommonStepDefs - page status/response code: 404
+[main] INFO steps.CommonStepDefs - retrieved page link size: 32
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/standards/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/participate/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/membership
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/Webmaster.html
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/siteindex.html
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/Account/
+[main] INFO steps.CommonStepDefs - 404 | https://www.w3.org/standards/badpage#w3c_content_body
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/siteindex.html
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/Webmaster
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/standards/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/participate/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/membership
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/contact
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/sponsor/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/siteindex
+[main] INFO steps.CommonStepDefs - 200 | https://lists.w3.org/Archives/Public/site-comments/
+[main] INFO steps.CommonStepDefs - 200 | https://twitter.com/W3C
+[main] INFO steps.CommonStepDefs - 200 | https://www.csail.mit.edu/
+[main] INFO steps.CommonStepDefs - 200 | https://www.ercim.eu/
+[main] INFO steps.CommonStepDefs - 200 | https://www.keio.ac.jp/
+[main] INFO steps.CommonStepDefs - 200 | https://ev.buaa.edu.cn/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/Legal/ipr-notice
+]]></system-err>
+  </testcase>
+  <testcase name="Chrome - W3 Multi-Modal Page - Links Test" classname="Chrome Automation Tests" time="21.686"/>
+  <testcase name="Chrome - W3 HTML/CSS Page - Links Test" classname="Chrome Automation Tests" time="25.084"/>
+  <testcase name="Chrome - W3 Bad Page - Console Logs Test" classname="Chrome Automation Tests" time="5.708">
+    <failure message="Console log Level.SEVERE detected: [2021-12-29T00:13:08-0800] [SEVERE] https://www.w3.org/standards/badpage - Failed to load resource: the server responded with a status of 404 (). Actual: SEVERE" type="java.lang.AssertionError">java.lang.AssertionError: Console log Level.SEVERE detected: [2021-12-29T00:13:08-0800] [SEVERE] https://www.w3.org/standards/badpage - Failed to load resource: the server responded with a status of 404 (). Actual: SEVERE
+</failure>
+    <system-out><![CDATA[
+@smoke @chrome @logs
+Scenario: Chrome - W3 Bad Page - Console Logs Test                      # src/test/resources/features/chrome.feature:23
+  Given the user opens "chrome" browser and navigates to the "bad" page # steps.CommonStepDefs.theUserOpensBrowserAndNavigatesToThePage(java.lang.String,java.lang.String)
+  Then the page response code should be 404                             # steps.CommonStepDefs.thePageResponseCodeShouldBe(int)
+SEVERE | https://www.w3.org/standards/badpage - Failed to load resource: the server responded with a status of 404 ()
+  And the console log should have no errors after page load             # steps.CommonStepDefs.theConsoleLogShouldHaveNoErrorsAfterPageLoad()
+      java.lang.AssertionError: Console log Level.SEVERE detected: [2021-12-29T00:13:08-0800] [SEVERE] https://www.w3.org/standards/badpage - Failed to load resource: the server responded with a status of 404 (). Actual: SEVERE
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failEquals(Assert.java:187)
+	at org.junit.Assert.assertNotEquals(Assert.java:163)
+	at steps.CommonStepDefs.theConsoleLogShouldHaveNoErrorsAfterPageLoad(CommonStepDefs.java:71)
+	at ✽.the console log should have no errors after page load(file:///Users/mike/IdeaProjects/automation-test/src/test/resources/features/chrome.feature:26)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 39773
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 29, 2021 12:13:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] INFO pages.Page - sanitized page name > bad
+[main] INFO pages.Page - https://www.w3.org/standards/badpage
+[main] INFO steps.CommonStepDefs - page status/response code: 404
+[main] INFO steps.CommonStepDefs - retrieved console log size: 1
+]]></system-err>
+  </testcase>
+  <testcase name="Chrome - W3 Multi-Modal Page - Console Logs Test" classname="Chrome Automation Tests" time="5.588"/>
+  <testcase name="Chrome - W3 HTML/CSS Page - Console Logs Test" classname="Chrome Automation Tests" time="5.751"/>
+  <testcase name="Firefox - W3 Bad Page - Links Test" classname="Firefox Automation Tests" time="16.175">
+    <failure message="&#10;The following assertion failed:&#10;1) Redirected link returns status code: 404 &gt; https://www.w3.org/standards/badpage#w3c_content_body expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) Redirected link returns status code: 404 > https://www.w3.org/standards/badpage#w3c_content_body expected:<[fals]e> but was:<[tru]e>
+
+]]></failure>
+    <system-out><![CDATA[
+@smoke @firefox @links
+Scenario: Firefox - W3 Bad Page - Links Test                             # src/test/resources/features/firefox.feature:5
+  Given the user opens "firefox" browser and navigates to the "bad" page # steps.CommonStepDefs.theUserOpensBrowserAndNavigatesToThePage(java.lang.String,java.lang.String)
+  Then the page response code should be 404                              # steps.CommonStepDefs.thePageResponseCodeShouldBe(int)
+  And all links on the page should redirect to a valid page              # steps.CommonStepDefs.allLinksOnThePageShouldRedirectToAValidPage()
+      org.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) Redirected link returns status code: 404 > https://www.w3.org/standards/badpage#w3c_content_body expected:<[fals]e> but was:<[tru]e>
+
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:100)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:37)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:42)
+	at steps.CommonStepDefs.allLinksOnThePageShouldRedirectToAValidPage(CommonStepDefs.java:107)
+	at ✽.all links on the page should redirect to a valid page(file:///Users/mike/IdeaProjects/automation-test/src/test/resources/features/firefox.feature:8)
+
+]]></system-out>
+    <system-err><![CDATA[1640765603724	geckodriver	INFO	Listening on 127.0.0.1:12253
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/66zhpk6x399f4pzpl64t7g6c0000gn/T/rust_mozprofile83hQ2q/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+Dec 29, 2021 12:13:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] INFO pages.Page - sanitized page name > bad
+[main] INFO pages.Page - https://www.w3.org/standards/badpage
+[main] INFO steps.CommonStepDefs - page status/response code: 404
+[main] INFO steps.CommonStepDefs - retrieved page link size: 32
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/standards/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/participate/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/membership
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/Webmaster.html
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/siteindex.html
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/Account/
+[main] INFO steps.CommonStepDefs - 404 | https://www.w3.org/standards/badpage#w3c_content_body
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/siteindex.html
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/Webmaster
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/standards/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/participate/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/membership
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/contact
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Help/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/sponsor/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/siteindex
+[main] INFO steps.CommonStepDefs - 200 | https://lists.w3.org/Archives/Public/site-comments/
+[main] INFO steps.CommonStepDefs - 200 | https://twitter.com/W3C
+[main] INFO steps.CommonStepDefs - 200 | https://www.csail.mit.edu/
+[main] INFO steps.CommonStepDefs - 200 | https://www.ercim.eu/
+[main] INFO steps.CommonStepDefs - 200 | https://www.keio.ac.jp/
+[main] INFO steps.CommonStepDefs - 200 | https://ev.buaa.edu.cn/
+[main] INFO steps.CommonStepDefs - 200 | https://www.w3.org/Consortium/Legal/ipr-notice
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="Firefox - W3 Multi-Modal Page - Links Test" classname="Firefox Automation Tests" time="16.453"/>
+  <testcase name="Firefox - W3 HTML/CSS Page - Links Test" classname="Firefox Automation Tests" time="44.744"/>
+  <testcase name="Firefox - W3 Bad Page - Console Logs Test" classname="Firefox Automation Tests" time="8.24">
+    <failure message="Unable to determine type from: H. Last 1 characters read: H&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;mikes-MBP.attlocal.net&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="java.lang.AssertionError">java.lang.AssertionError: 
+Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+</failure>
+    <system-out><![CDATA[
+@smoke @firefox @logs
+Scenario: Firefox - W3 Bad Page - Console Logs Test                      # src/test/resources/features/firefox.feature:24
+  Given the user opens "firefox" browser and navigates to the "bad" page # steps.CommonStepDefs.theUserOpensBrowserAndNavigatesToThePage(java.lang.String,java.lang.String)
+  Then the page response code should be 404                              # steps.CommonStepDefs.thePageResponseCodeShouldBe(int)
+  And the console log should have no errors after page load              # steps.CommonStepDefs.theConsoleLogShouldHaveNoErrorsAfterPageLoad()
+      java.lang.AssertionError: Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.CommonStepDefs.theConsoleLogShouldHaveNoErrorsAfterPageLoad(CommonStepDefs.java:79)
+	at ✽.the console log should have no errors after page load(file:///Users/mike/IdeaProjects/automation-test/src/test/resources/features/firefox.feature:27)
+
+]]></system-out>
+    <system-err><![CDATA[1640765681078	geckodriver	INFO	Listening on 127.0.0.1:42587
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/66zhpk6x399f4pzpl64t7g6c0000gn/T/rust_mozprofileuvww5a/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+Dec 29, 2021 12:14:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] INFO pages.Page - sanitized page name > bad
+[main] INFO pages.Page - https://www.w3.org/standards/badpage
+[main] INFO steps.CommonStepDefs - page status/response code: 404
+[main] INFO steps.CommonStepDefs - browser type: firefox
+[main] INFO steps.CommonStepDefs - Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="Firefox - W3 Multi-Modal Page - Console Logs Test" classname="Firefox Automation Tests" time="8.094">
+    <failure message="Unable to determine type from: H. Last 1 characters read: H&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;mikes-MBP.attlocal.net&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="java.lang.AssertionError">java.lang.AssertionError: 
+Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+</failure>
+    <system-out><![CDATA[
+@smoke @firefox @logs
+Scenario: Firefox - W3 Multi-Modal Page - Console Logs Test                      # src/test/resources/features/firefox.feature:30
+  Given the user opens "firefox" browser and navigates to the "multi-modal" page # steps.CommonStepDefs.theUserOpensBrowserAndNavigatesToThePage(java.lang.String,java.lang.String)
+  Then the page response code should be 200                                      # steps.CommonStepDefs.thePageResponseCodeShouldBe(int)
+  And the console log should have no errors after page load                      # steps.CommonStepDefs.theConsoleLogShouldHaveNoErrorsAfterPageLoad()
+      java.lang.AssertionError: Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.CommonStepDefs.theConsoleLogShouldHaveNoErrorsAfterPageLoad(CommonStepDefs.java:79)
+	at ✽.the console log should have no errors after page load(file:///Users/mike/IdeaProjects/automation-test/src/test/resources/features/firefox.feature:33)
+
+]]></system-out>
+    <system-err><![CDATA[1640765689309	geckodriver	INFO	Listening on 127.0.0.1:16139
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/66zhpk6x399f4pzpl64t7g6c0000gn/T/rust_mozprofileLn0xIa/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+Dec 29, 2021 12:14:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] INFO pages.Page - sanitized page name > multimodal
+[main] INFO pages.Page - https://www.w3.org/standards/webofdevices/multimodal
+[main] INFO steps.CommonStepDefs - page status/response code: 200
+[main] INFO steps.CommonStepDefs - browser type: firefox
+[main] INFO steps.CommonStepDefs - Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="Firefox - W3 HTML/CSS Page - Console Logs Test" classname="Firefox Automation Tests" time="7.983">
+    <failure message="Unable to determine type from: H. Last 1 characters read: H&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;mikes-MBP.attlocal.net&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="java.lang.AssertionError">java.lang.AssertionError: 
+Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+</failure>
+    <system-out><![CDATA[
+@smoke @firefox @logs
+Scenario: Firefox - W3 HTML/CSS Page - Console Logs Test                      # src/test/resources/features/firefox.feature:36
+  Given the user opens "firefox" browser and navigates to the "html css" page # steps.CommonStepDefs.theUserOpensBrowserAndNavigatesToThePage(java.lang.String,java.lang.String)
+  Then the page response code should be 200                                   # steps.CommonStepDefs.thePageResponseCodeShouldBe(int)
+  And the console log should have no errors after page load                   # steps.CommonStepDefs.theConsoleLogShouldHaveNoErrorsAfterPageLoad()
+      java.lang.AssertionError: Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.CommonStepDefs.theConsoleLogShouldHaveNoErrorsAfterPageLoad(CommonStepDefs.java:79)
+	at ✽.the console log should have no errors after page load(file:///Users/mike/IdeaProjects/automation-test/src/test/resources/features/firefox.feature:39)
+
+]]></system-out>
+    <system-err><![CDATA[1640765697403	geckodriver	INFO	Listening on 127.0.0.1:47586
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/66zhpk6x399f4pzpl64t7g6c0000gn/T/rust_mozprofileJlLbNU/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+Dec 29, 2021 12:15:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] INFO pages.Page - sanitized page name > htmlcss
+[main] INFO pages.Page - https://www.w3.org/standards/webdesign/htmlcss
+[main] INFO steps.CommonStepDefs - page status/response code: 200
+[main] INFO steps.CommonStepDefs - browser type: firefox
+[main] INFO steps.CommonStepDefs - Unable to determine type from: H. Last 1 characters read: H
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mikes-MBP.attlocal.net', ip: '192.168.1.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+</testsuite>
