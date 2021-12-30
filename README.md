@@ -1,8 +1,8 @@
-The purpose of this project is to utitlize Maven/Selenium/Cucumber to perform automated testing for specified W3 webpages.  The W3 pages tested are:
+The purpose of this project is to utitlize Maven/Selenium/Cucumber to perform automated testing for specified W3C webpages.  The W3C pages tested are:
 
-- W3 Bad page (404)
-- W3 Multi-modal page
-- W3 HTML/CSS page
+- W3C Bad page (404)
+- W3C Multi-modal page
+- W3C HTML/CSS page
 
 The following validations for each page are performed via automation for both Chrome/Firefox browsers:
 
