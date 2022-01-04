@@ -26,7 +26,7 @@ public class Page {
 
     public Page navigateTo(String page) {
         log.info("sanitized page name > " + sanitize(page));
-        pageObj = new Page().makePageObject(page);
+        pageObj = makePageObject(page);
         Base.webDriver.get(pageObj.getUrl());
 
         log.info(Base.webDriver.getCurrentUrl());
