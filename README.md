@@ -26,6 +26,3 @@ This config was initially setup to test/debug some Docker issues (further docume
 The config file is located in the path (below).  User can change the 'locale' key/value to <b><i>local</b></i> or <b><i>remote</b></i>
 
 <pre>src/test/resources/reference.conf</pre>
-
-My Docker Hub link:
-https://hub.docker.com/u/mrtran22dev
